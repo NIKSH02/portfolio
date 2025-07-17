@@ -61,7 +61,7 @@ Experience the live portfolio at [https://nikhil.is-a.dev](https://nikhil.is-a.d
 
 1️⃣ Clone the repository:
 ```bash
-git clone https://github.com/nikhilkolluri/Portfolio
+git clone https://github.com/NIKSH02/portfolio.git
 ```
 
 2️⃣ Navigate to project directory:
@@ -130,8 +130,6 @@ npm run dev
 ## 📄 License
 
 <div align="center">
-
-MIT License © [nikhil Kolluri](LICENSE)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%"/>
 
