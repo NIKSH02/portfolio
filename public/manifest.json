@@ -1,0 +1,21 @@
+{
+  "name": "Nikhil Sharma - Portfolio",
+  "short_name": "Nikhil Portfolio",
+  "description": "Nikhil Sharma's personal portfolio website showcasing Full Stack and Cloud projects",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#121212",
+  "icons": [
+    {
+      "src": "/favicon1.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/favicon1.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+} 

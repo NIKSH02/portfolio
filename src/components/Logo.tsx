@@ -1,0 +1,103 @@
+function Logo() {
+  return (
+    <svg id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+      <title>Nikhil Sharma</title>
+      <defs>
+        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" style={{ stopColor: 'var(--theme-color)', stopOpacity: 0.8 }} />
+          <stop offset="100%" style={{ stopColor: 'var(--lightest-slate)', stopOpacity: 1 }} />
+        </linearGradient>
+      </defs>
+      <g>
+        {/* Letter N - smaller and centered left */}
+        <g transform="translate(20, 28) scale(0.7)">
+          <path
+            // d="M 9 70 L 0 70 L 0 0 L 12.6 0 L 43.5 58.2 L 43.5 0 L 52.5 0 L 52.5 70 L 40.1 70 L 9 12.2 L 9 70 Z"
+            d="M 1 19.2 L 0 18.9 Q 0.1 11.9 2.05 7.75 Q 4 3.6 7.1 1.8 Q 10.2 0 13.5 0 Q 18.5 0 22.45 3.25 Q 26.4 6.5 29.55 12.1 Q 32.7 17.7 35.05 24.75 Q 37.4 31.8 39.1 39.45 Q 40.8 47.1 41.8 54.5 Q 42.4 50.5 43.05 44.7 Q 43.7 38.9 44.2 32.5 Q 44.7 26.1 44.7 20.3 Q 44.7 16.1 44.4 12.65 Q 44.1 9.2 43.4 6.7 L 43.4 5.9 Q 46 3 48.65 1.5 Q 51.3 0 53.6 0 Q 57 0 59.25 2.95 Q 61.5 5.9 61.5 11.3 Q 61.5 15.3 60.4 21.05 Q 59.3 26.8 57.8 33.3 Q 56.3 39.8 55.15 46.05 Q 54 52.3 53.9 57.3 Q 53.9 58.7 54.1 60.3 Q 54.3 61.9 56.2 61.9 Q 56.3 62.3 56.3 62.5 L 56.3 62.9 Q 56.2 66.7 53.2 69.65 Q 50.2 72.6 45.2 72.6 Q 41.3 72.6 38.6 70.6 Q 35.9 68.6 34.1 65.25 Q 32.3 61.9 31.05 57.65 Q 29.8 53.4 28.7 48.9 Q 26.7 41.1 24.55 34.05 Q 22.4 27 18.8 21.1 Q 19 25.1 18.5 29.85 Q 18 34.6 17.45 39.45 Q 16.9 44.3 16.9 48.8 Q 16.9 52.8 17.6 56.15 Q 18.3 59.5 20.1 62.1 Q 20.1 67 17 69.8 Q 13.9 72.6 10.2 72.6 Q 6.5 72.6 3.45 69.6 Q 0.4 66.6 0.4 60.1 Q 0.4 53.6 1.65 47.55 Q 2.9 41.5 4.55 35.9 Q 6.2 30.3 7.45 25.25 Q 8.7 20.2 8.7 15.7 Q 7.2 15.1 5.9 15.1 Q 4.1 15.1 2.9 16.2 Q 1.7 17.3 1 19.2 Z"
+            fill="url(#grad1)"
+            stroke="var(--theme-color)"
+            strokeWidth="1.5"
+          >
+            <animateTransform
+              attributeName="transform"
+              type="scale"
+              values="1;1.05;1"
+              dur="3s"
+              repeatCount="indefinite"
+            />
+          </path>
+        </g>
+
+        {/* Letter S - smaller and centered right with space from N */}
+        <g transform="translate(48, 25) scale(0.7)">
+          <path
+            // d="M 0 65.3 L 4.8 57.3 Q 8.4 60.3 12.9 62.2 Q 17.4 64.1 23.4 64.1 Q 30.6 64.1 34.8 61.1 Q 39 58.1 39 53 Q 39 50.1 37.8 47.85 Q 36.6 45.6 33.15 43.45 Q 29.7 41.3 23 38.8 Q 15.8 36 11.5 33.15 Q 7.2 30.3 5.35 26.65 Q 3.5 23 3.5 18 Q 3.5 13 6.25 8.95 Q 9 4.9 14.35 2.45 Q 19.7 0 27.3 0 Q 33.5 0 38.45 1.25 Q 43.4 2.5 48.1 4.8 L 44.6 12.9 Q 41.2 10.9 36.65 9.55 Q 32.1 8.2 27.1 8.2 Q 20.5 8.2 16.7 10.8 Q 12.9 13.4 12.9 17.5 Q 12.9 20.1 14 22.1 Q 15.1 24.1 18.35 26 Q 21.6 27.9 28.1 30.3 Q 35.9 33.2 40.45 36.4 Q 45 39.6 46.9 43.35 Q 48.8 47.1 48.8 51.9 Q 48.8 58.4 45.55 63 Q 42.3 67.6 36.55 70 Q 30.8 72.4 23.4 72.4 Q 16.1 72.4 10.1 70.45 Q 4.1 68.5 0 65.3 Z"
+            d="M 19.6 73.2 Q 12.9 73.2 8.55 70.9 Q 4.2 68.6 2.1 65 Q 0 61.4 0 57.6 Q 0 53.9 1.8 50.55 Q 3.6 47.2 6.95 45 Q 10.3 42.8 14.9 42.8 Q 14.8 43.7 14.8 44.45 L 14.8 45.2 Q 14.8 51.9 16.1 55.75 Q 17.4 59.6 19.4 61.25 Q 21.4 62.9 23.5 62.9 Q 26.7 62.9 29.2 60.35 Q 31.7 57.8 31.7 54.4 Q 31.7 50.6 28.45 47.7 Q 25.2 44.8 20.2 41.3 Q 17.4 39.2 14.25 36.55 Q 11.1 33.9 8.9 30.25 Q 6.7 26.6 6.7 21.6 Q 6.7 16.4 9.15 12.4 Q 11.6 8.4 15.65 5.65 Q 19.7 2.9 24.55 1.45 Q 29.4 0 34.2 0 Q 40.1 0 43.9 1.9 Q 47.7 3.8 49.6 6.8 Q 51.5 9.8 51.5 13 Q 51.5 16 49.85 18.75 Q 48.2 21.5 45 23.2 Q 41.8 24.9 37.1 24.9 Q 37.4 23.5 37.5 22.35 Q 37.6 21.2 37.6 20.3 Q 37.6 15.3 35.45 13.15 Q 33.3 11 30.7 11 Q 28.2 11 25.9 12.85 Q 23.6 14.7 23.6 18.8 Q 23.6 22.3 25.45 24.8 Q 27.3 27.3 30.25 29.2 Q 33.2 31.1 36.5 32.9 Q 39.9 34.7 43.05 36.85 Q 46.2 39 48.3 41.9 Q 50.4 44.8 50.4 49.2 Q 50.4 53.8 47.9 58.15 Q 45.4 62.5 41.1 65.85 Q 36.8 69.2 31.25 71.2 Q 25.7 73.2 19.6 73.2 Z"
+            fill="none"
+            stroke="url(#grad1)"
+            strokeWidth="6"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <animateTransform
+              attributeName="transform"
+              type="scale"
+              values="1;1.03;1"
+              dur="3s"
+              repeatCount="indefinite"
+            />
+          </path>
+        </g>
+
+        {/* Additional Shapes */}
+        <circle cx="25" cy="25" r="5" fill="var(--theme-color)" opacity="0.5" />
+        <circle cx="75" cy="75" r="5" fill="var(--theme-color)" opacity="0.5" />
+        <polygon points="50,10 60,30 40,30" fill="var(--theme-color-secondary)" opacity="0.4">
+          <animateTransform
+            attributeName="transform"
+            type="rotate"
+            from="0 50 20"
+            to="360 50 20"
+            dur="10s"
+            repeatCount="indefinite"
+          />
+        </polygon>
+        <polygon points="30,90 40,70 20,70" fill="var(--theme-color-secondary)" opacity="0.4">
+          <animateTransform
+            attributeName="transform"
+            type="rotate"
+            from="0 30 80"
+            to="360 30 80"
+            dur="10s"
+            repeatCount="indefinite"
+          />
+        </polygon>
+
+        {/* Glowing Circle Frame */}
+        <circle
+          cx="50"
+          cy="50"
+          r="40"
+          fill="none"
+          stroke="var(--theme-color)"
+          strokeWidth="1"
+          filter="url(#glow)"
+          opacity="0.4"
+        >
+          <animate attributeName="r" values="38;42;38" dur="3s" repeatCount="indefinite" />
+        </circle>
+
+        {/* Glow Filter */}
+        <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="2.5" result="coloredBlur" />
+          <feMerge>
+            <feMergeNode in="coloredBlur" />
+            <feMergeNode in="SourceGraphic" />
+          </feMerge>
+        </filter>
+      </g>
+    </svg>
+  );
+}
+
+export default Logo;
