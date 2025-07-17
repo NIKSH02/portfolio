@@ -127,7 +127,6 @@ npm run dev
   - Semantic HTML structure
   - Performance optimized
 
-## 📄 License
 
 <div align="center">
 
