@@ -16,7 +16,7 @@ export default function Document() {
           defer
           data-website-id="ed35faf2-bbd5-4786-a055-e12bab68f1d9" // Replace with your actual Umami ID when deploying
           src="https://analytics.umami.is/script.js"
-          data-domains="lohit.is-a.dev"
+          data-domains="nikhil.is-a.dev"
           data-do-not-track="true"
         />
       </Head>

@@ -7,7 +7,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'lohitcdn.blob.core.windows.net',
+        hostname: 'cdn.blob.core.windows.net', // Nikkil
         port: '',
         pathname: '/**',
       },

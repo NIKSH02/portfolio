@@ -130,21 +130,21 @@ function Index() {
     <div className="app">
       <Head>
         <title>Nikhil&apos;s Portfolio</title>
-        <meta name="description" content="Lohit Kolluri - DevOps & Cloud Solutions Engineer specializing in cloud-native technologies, containerization, and CI/CD pipelines" />
-        <link rel="canonical" href="https://lohit.is-a.dev" />
+        <meta name="description" content="I'm a Software Engineer & Full-Stack Developer specializing in real-time systems" />
+        <link rel="canonical" href="https://github.com/NIKSH02" />
         
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Lohit Kolluri - DevOps & Cloud Engineer" />
-        <meta property="og:description" content="Portfolio of Lohit Kolluri, a DevOps & Cloud Solutions Engineer specializing in AWS, Azure, Docker, Kubernetes, and full-stack development" />
-        <meta property="og:url" content="https://lohit.is-a.dev" />
-        <meta property="og:image" content="https://lohit.is-a.dev/favicon.svg" />
+        <meta property="og:title" content="Nikhil Shamra - Full stack & cloud engineer" />
+        <meta property="og:description" content="Portfolio of Nikhil Sharma, I'm a Software Engineer & Full-Stack Developer specializing in real-time systems," />
+        <meta property="og:url" content="https://github.com/NIKSH02" />
+        <meta property="og:image" content="https://github.com/NIKSH02" />
         
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Lohit Kolluri - DevOps & Cloud Engineer" />
-        <meta name="twitter:description" content="Portfolio of Lohit Kolluri, a DevOps & Cloud Solutions Engineer specializing in AWS, Azure, Docker, Kubernetes, and full-stack development" />
-        <meta name="twitter:image" content="https://lohit.is-a.dev/favicon.svg" />
+        <meta name="twitter:title" content="Nikhil Shamra - Full stack & cloud engineer" />
+        <meta name="twitter:description" content="Portfolio of Nikhil Sharma, I'm a Software Engineer & Full-Stack Developer specializing in real-time systems," />
+        <meta name="twitter:image" content="https://github.com/NIKSH02" />
         
         <link rel="shortcut icon" href="/favicon1.svg" />
         <meta
@@ -160,7 +160,7 @@ function Index() {
               '@context': 'https://schema.org',
               '@type': 'Person',
               name: 'Nikhil Sharma',
-              url: 'https://lohit.is-a.dev',
+              url: 'https://github.com/NIKSH02',          // wait 
               jobTitle: 'Full-Stack & Cloud Solutions Engineer',
               worksFor: {
                 '@type': 'Organization',

@@ -10,8 +10,8 @@
   <a href="#tech-stack">Tech Stack</a>
 </p>
 
-[![GitHub license](https://img.shields.io/github/license/lohitkolluri/Portfolio?style=flat-square)](LICENSE)
-[![Website](https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Flohit.is-a.dev)](https://lohit.is-a.dev)
+[![GitHub license](https://img.shields.io/github/license/Nikhilsharma/Portfolio?style=flat-square)](LICENSE)
+[![Website](https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Fnikhil.is-a.dev)](https://nikhil.is-a.dev)
 [![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB?style=flat-square&logo=react)](https://reactjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-3178C6?style=flat-square&logo=typescript)](https://www.typescriptlang.org)
 
@@ -49,7 +49,7 @@ mindmap
 
 ## 🚀 Demo
 
-Experience the live portfolio at [https://lohit.is-a.dev](https://lohit.is-a.dev)
+Experience the live portfolio at [https://nikhil.is-a.dev](https://nikhil.is-a.dev)
 
 ## 📸 Screenshots
 
@@ -61,7 +61,7 @@ Experience the live portfolio at [https://lohit.is-a.dev](https://lohit.is-a.dev
 
 1️⃣ Clone the repository:
 ```bash
-git clone https://github.com/lohitkolluri/Portfolio
+git clone https://github.com/nikhilkolluri/Portfolio
 ```
 
 2️⃣ Navigate to project directory:
@@ -131,7 +131,7 @@ npm run dev
 
 <div align="center">
 
-MIT License © [Lohit Kolluri](LICENSE)
+MIT License © [nikhil Kolluri](LICENSE)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%"/>
 

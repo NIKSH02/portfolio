@@ -9,7 +9,7 @@ function Footer() {
   useEffect(() => {
     // Fetch GitHub information here and update state
     // Example using GitHub API:
-    // fetch('https://api.github.com/repos/lohitkolluri/your-repo')
+    // fetch('https://api.github.com/repos//your-repo')
     //   .then(response => response.json())
     //   .then(data => setGitHubInfo({ stars: data.stargazers_count, forks: data.forks_count }));
   }, []);
