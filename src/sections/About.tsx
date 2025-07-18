@@ -26,7 +26,7 @@ const technologies = [
   'AWS/Docker',
   'Git/Render',
   'Node/RESTAPI',
-  'PostgreSQL/MongoDB',
+  'PostgreSQL/Mongo',
   'React/Next.js',
 ];
 
