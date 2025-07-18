@@ -5,7 +5,7 @@ function SocialIcons() {
     { name: 'Github', icon: <Github />, link: 'https://github.com/NIKSH02' },
     { name: 'LinkedIn', icon: <Linkedin />, link: 'https://www.linkedin.com/in/nikhil-sharma-1aa669294/' },
     { name: 'Instagram', icon: <Instagram />, link: 'https://www.instagram.com/nikhil_sharma_0206/#' },
-    { name: 'Website', icon: <Globe />, link: 'www.google.com' },
+    { name: 'Website', icon: <Globe />, link: 'https://portfolio-delta-cyan-etc6viwsjz.vercel.app/' },
   ];
 
   return (
