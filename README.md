@@ -49,7 +49,7 @@ mindmap
 
 ## 🚀 Demo
 
-Experience the live portfolio at [https://nikhil.is-a.dev](https://nikhil.is-a.dev)
+Experience the live portfolio at [https://portfolio-delta-cyan-etc6viwsjz.vercel.app/](https://portfolio-delta-cyan-etc6viwsjz.vercel.app/)
 
 ## 📸 Screenshots
 

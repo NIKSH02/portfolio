@@ -24,7 +24,7 @@ function Projects() {
       projectLink: 'https://vendorverse-eight.vercel.app/',
       projectDescription:
         'A web-based full-stack web application connecting street food vendors with local suppliers via real-time communication tools also implemented city-based group chat for vendors. ',
-      projectTech: ['React', 'Node.js', 'Socket.IO',''],
+      projectTech: ['React', 'Node.js', 'Socket.IO','Tailwind CSS'],
       projectExternalLinks: {
         github: 'https://github.com/NIKSH02/VendorVerse',
         externalLink: 'https://vendorverse-eight.vercel.app/',
