@@ -19,6 +19,30 @@ function Projects() {
       },
     },
     {
+      image: '/projects/project5.png',
+      projectName: 'Vendorverse',
+      projectLink: 'https://vendorverse-eight.vercel.app/',
+      projectDescription:
+        'A web-based full-stack web application connecting street food vendors with local suppliers via real-time communication tools also implemented city-based group chat for vendors. ',
+      projectTech: ['React', 'Node.js', 'Socket.IO',''],
+      projectExternalLinks: {
+        github: 'https://github.com/NIKSH02/VendorVerse',
+        externalLink: 'https://vendorverse-eight.vercel.app/',
+      },
+    },
+    {
+      image: '/projects/project4.png',
+      projectName: 'QuickCourt',
+      projectLink: 'https://quicksport.vercel.app/',
+      projectDescription:
+        'A web-based full-stack web application connecting street food vendors with local suppliers via real-time communication tools also implemented city-based group chat for vendors. ',
+      projectTech: ['React', 'Node.js', 'Socket.IO', 'Mapbox API', 'Razor Pay', 'Weather API'],
+      projectExternalLinks: {
+        github: 'https://github.com/NIKSH02/Odoo-final-deployment-',
+        externalLink: 'https://quicksport.vercel.app/',
+      },
+    },
+    {
       image: '/projects/project2.jpeg',
       projectName: 'Wanderlust',
       projectLink: 'https://major-project-1-cey8.onrender.com/listing',
@@ -28,18 +52,6 @@ function Projects() {
       projectExternalLinks: {
         github: 'https://github.com/NIKSH02/Major-project',
         externalLink: 'https://major-project-1-cey8.onrender.com/listing',
-      },
-    },
-    {
-      image: '/projects/project3.png',
-      projectName: 'Weather App',
-      projectLink: 'https://weatherapp-8y3h.onrender.com/',
-      projectDescription:
-        'A web-based code editor supporting 40+ programming languages with customizable themes and real-time compilation capabilities.',
-      projectTech: ['React', 'Node.js', 'Weather Api', 'Material UI'],
-      projectExternalLinks: {
-        github: 'https://github.com/NIKSH02/WeatherApp',
-        externalLink: 'https://weatherapp-8y3h.onrender.com/',
       },
     },
   ];
